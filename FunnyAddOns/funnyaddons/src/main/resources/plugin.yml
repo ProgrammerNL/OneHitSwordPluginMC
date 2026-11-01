@@ -1,0 +1,14 @@
+name: funnyaddons
+version: '1.0-SNAPSHOT'
+main: org.minecraftplugins.funnyaddons.Funnyaddons
+api-version: '1.21'
+commands:
+  onehitsword:
+    description: Gives you the One-Hit Sword
+    usage: /onehitsword
+    permission: onehitsword.give
+
+permissions:
+  onehitsword.give:
+    description: Allows the player to spawn the One-Hit Sword
+    default: op
